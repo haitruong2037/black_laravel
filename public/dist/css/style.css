@@ -1,0 +1,194 @@
+table tbody .custom-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+table tbody .action-form {
+    width: 200px;
+}
+
+table tbody .action-form .btn {
+    width: 50px;
+}
+
+.user-panel .user-info {
+    width: 100%;
+    position: relative;
+}
+
+.user-panel .user-panel-action {
+    display: none;
+}
+
+.user-panel .nav .nav-item .nav-link {
+    background-color: #343A40;
+    border: none;
+    box-shadow: none;
+    color: #c2c7d0;
+    width: 100%;
+    align-items: start;
+    text-align: start;
+}
+
+.user-panel .nav .nav-item .nav-link:hover {
+    background: #494E53;
+    color: white;
+    width: 100%;
+
+}
+
+.user-panel .nav .nav-item .nav-link i {
+    margin-left: .05rem;
+    font-size: 1.2rem;
+    margin-right: .2rem;
+    text-align: center;
+    width: 1.6rem;
+}
+
+.user-panel .arrow-icon {
+    position: absolute;
+    right: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #c2c7d0;
+}
+
+.user-panel .arrow-icon i {
+    transition: transform 0.3s ease;
+}
+
+.user-panel .arrow-icon.open i {
+    transform: rotate(-90deg);
+}
+
+.card-body .pagination {
+    float: right;
+    margin-top: 20px;
+}
+
+.categories-img {
+    max-width: 140px;
+    max-height: 100px;
+    object-fit: cover;
+}
+
+.pagination-area nav ul {
+    justify-content: end;
+    margin-top: 10px;
+}
+
+table .table-custom-img {
+    max-width: 120px;
+    max-height: 80px;
+    object-fit: cover;
+}
+
+/* List addition product images\ */
+.list-addtional-product-images {
+    position: relative;
+    padding: 5px;
+}
+
+.list-addtional-product-images .product-image-contant{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #cdcdcd;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    width: 250px;
+    height: 300px;
+}
+
+.list-addtional-product-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.list-addtional-product-images button {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    /* background-color: unset; */
+    border: none;
+    color: white;
+    text-shadow: 1px 1px 1px gray;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.order-option {
+    width: 170px;
+}
+
+.order-option select option {
+    background: #494E53;
+}
+
+.text-truncate-container {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 3em;
+    line-height: 1.5em;
+}
+
+.list-addtional-product-images button.main-image {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+}
+
+.list-addtional-product-images:hover button {
+    opacity: 1;
+}
+
+.product-analytics p, .product-analytics span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.product-analytics .product-analytics__quantity {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.product-analytics .bg-light {
+    height: 100%;
+}
+
+.custom-link-redirect {
+    color: black;
+}
+
+.custom-status-user {
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.modal-details-custom-img {
+    max-width: 120px;
+    max-height: 80px;
+    object-fit: cover;
+}
+
+.comment-replies-action {
+    transition: all 0.2s ease;
+}
+
+.comment-replies-action .comment-replies-action__remove {
+    display: none;
+    margin-right: 10px;
+    transition: all 0.2s ease;
+}
+
+.comment-replies-action:hover .comment-replies-action__remove {
+    display: inline;
+}
